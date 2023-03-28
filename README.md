@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repo]()
-- Live Site URL: []()
+- Solution URL: [GitHub repo](https://github.com/nicknjagi/interactive-pricing-component)
+- Live Site URL: [https://nicknjagi.github.io/interactive-pricing-component/](https://nicknjagi.github.io/interactive-pricing-component/)
 
 ## My process
 
