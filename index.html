@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="intro">
+      <h1>Simple, traffic-based pricing</h1>
+      <span>Sign-up for our 30-day trial. </span>
+      <span>No credit card required.</span>
+    </div>
+
+    <div class="section">
+      <div class="views-container">
+        <label for="views" class="label">100K Pageviews</label>
+        <input type="range" id="views" name="views" min="1" max="5" value="3" step="1">
+        <div class="price-container">
+          <span class="price">$16.00</span>
+          <span> / month</span>
+        </div>
+      </div>
+
+      <div class="billing-container">
+        <span>Monthly Billing</span>
+        <button class="toggle-btn"><span class="toggle"> </span></button>
+        <span>Yearly Billing <span class="disc">-25%<span class="disc-text"> discount</span></span> </span>
+      </div>
+
+      <div class="cta-container">
+        <ul>
+          <li><span>Unlimited websites</span></li>
+          <li><span>100% data ownership</span></li>
+          <li><span>Email reports</span></li>
+        </ul>
+        <button type="button" class="cta-btn">Start my trial</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
